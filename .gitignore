@@ -1,0 +1,40 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/client/node_modules
+/client/.pnp
+.pnp.js
+
+# testing
+/client/coverage
+
+# production
+/client/build
+
+# misc
+/client/.DS_Store
+/client/.env.local
+/client/.env.development.local
+/client/.env.test.local
+/client/.env.production.local
+
+/client/npm-debug.log*
+/client/yarn-debug.log*
+/client/yarn-error.log*
+
+/server/node_modules
+/server/package-lock.json
+
+/server/config/dev.js
+/server/security/cert.key
+/server/security/cert.pem
+#/public
+
+/.vscode
+/server/.env
+
+!public/images
+public/images/*
+!public/images/avatar0.jpg
+!public/images/avatar1.jpg
+!public/images/avatar2.jpg
